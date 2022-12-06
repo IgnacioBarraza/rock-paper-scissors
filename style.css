@@ -121,7 +121,7 @@ button {
 }
 
 .sign {
-    font-size: 35px;
+    font-size: 60px;
 }
 
 /* FOOTER */
@@ -190,7 +190,7 @@ button {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 550px) {
+@media (max-width: 620px) {
     .title {
         font-size: 18px;
     }

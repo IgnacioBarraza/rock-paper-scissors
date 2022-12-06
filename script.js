@@ -87,27 +87,27 @@ function handleClick(playerSelection) {
 function updateChoices(playerSelection, computerSelection) {
     switch (playerSelection) {
         case 'ROCK':
-            playerSign.textContent = 'ROCK'
+            playerSign.textContent = '🗿'
             break;
 
         case 'PAPER':
-            playerSign.textContent = 'PAPER'
+            playerSign.textContent = '🧻'
             break;
 
         case 'SCISSORS':
-            playerSign.textContent = 'SCISSORS'
+            playerSign.textContent = '✂️'
             break;
     }
 
     switch (computerSelection) {
         case 'ROCK':
-            computerSign.textContent = 'ROCK'
+            computerSign.textContent = '🗿'
             break;
         case 'PAPER':
-            computerSign.textContent = 'PAPER'
+            computerSign.textContent = '🧻'
             break;
         case 'SCISSORS':
-            computerSign.textContent = 'SCISSORS'
+            computerSign.textContent = '✂️'
             break;
         default:
             break;
